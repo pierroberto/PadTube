@@ -23,3 +23,9 @@
 .header__container {
   justify-content: space-between;
 }
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

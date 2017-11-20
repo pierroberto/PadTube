@@ -16,20 +16,22 @@ export const MainLayout = ({content}) => (
       <Container>
         <Row>
 
-            <Col lg='4'>
-              Logo
-            </Col>
-            <Col lg='4' />
-            <Col lg='4'>
-              <div className='header__menu'>
-                <a className='header__link' href = "/videos/">My Videos</a>
-                <FontAwesome
-                  name='user'
-                  size='1x'
-                />
-                <AccountsUI />
-              </div>
-          </Col>
+              <Col lg='4'>
+                <a href = '/'><img src = '/images/mortarboard.png' /></a>
+              </Col>
+              <Col lg='4' />
+              <Col lg='4'>
+                <div className='header__wrapper'>
+                  <div className='header__menu'>
+                    <a className='header__link' href = "/videos/">My Videos</a>
+                    <FontAwesome
+                      name='user'
+                    />
+                    <AccountsUI />
+                  </div>
+                </div>
+              </Col>
+
 
         </Row>
       </Container>
